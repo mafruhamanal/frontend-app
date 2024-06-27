@@ -16,7 +16,6 @@ const Hero = () => {
             <p className="my-2 max-w-xl py-6 tracking-tighter">
                 {HERO_CONTENT}
             </p>
-            
             <p>
             Feel free to reach out and say Hi 👋🏼
             </p>
