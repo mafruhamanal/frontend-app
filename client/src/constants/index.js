@@ -1,10 +1,10 @@
 import project1 from "../assets/projects/project-1.png";
 
-export const HERO_CONTENT = `I'm Mafruha Manal, currently an undergrad in Computer Science at UB 🚀 I like to dabble in a whole lot of web dev stuff 👩🏽‍💻, and lately I've been really into exploring mobile dev as well !📲
+export const HERO_CONTENT = `I'm Mafruha Manal, currently an undergrad in Computer Science 🚀 I like to dabble in a whole lot of web dev stuff 👩🏽‍💻, and lately I've been really into exploring mobile dev as well !📲
 
 `;
 
-export const ABOUT_TEXT = `I love to code (🤯) and enjoy working on little projects on the side 💻 It's always so so fun to just dive in and learn new skills first-hand, it's how I learn best! Outside of programming, I like to play video games 🎮 and watch k-dramas 🍿 for fun. I'm also a huge Frank Ocean fan! 🎧 Channel Orange on loop + a good can of redbull makes for a real good study session without fail every single time.`;
+export const ABOUT_TEXT = `I love to code (🤯) and enjoy working on little projects on the side 💻 It's always so so fun to just dive in and learn new skills first-hand, it's how I learn best! Outside of programming, I like to play video games 🎮 and watch k-dramas 🍿 for fun.`;
 
 export const EXPERIENCES = [
   {

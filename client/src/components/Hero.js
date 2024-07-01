@@ -13,12 +13,13 @@ const Hero = () => {
             <span className="bg-gradient-to-r font-medium from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
               CS @ University at Buffalo
             </span>
-            <p className="my-2 max-w-xl py-6 tracking-tighter">
+            <p className="my-2 max-w-xl py-6 ">
                 {HERO_CONTENT}
-            </p>
-            <p>
+                <p className=" max-w-xl py-6 ">
             Feel free to reach out and say Hi 👋🏼
             </p>
+            </p>
+            
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
