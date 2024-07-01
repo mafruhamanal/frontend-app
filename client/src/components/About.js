@@ -15,8 +15,13 @@ const About = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start mt-32">
-            <div className="max-w-xl py-12 ">{ABOUT_TEXT}
-              <p className="max-w-xl py-6 ">I'm also a huge Frank Ocean fan! 🎧 Channel Orange on loop + a good can of redbull makes for a real good study session every single time.</p>
+            <div className="max-w-xl py-12 ">
+              {ABOUT_TEXT}
+              <p className="max-w-xl py-6 ">
+                I'm also a huge Frank Ocean fan! 🎧 Channel Orange on loop + a
+                good can of redbull makes for a real good study session every
+                single time.
+              </p>
             </div>
           </div>
         </div>
