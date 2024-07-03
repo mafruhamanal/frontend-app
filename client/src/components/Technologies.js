@@ -10,7 +10,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24 pt-14">
-      <h2 className="my-20 text-center text-4xl text-fuchsia-300 font-medium">
+      <h2 className="my-12 text-center text-4xl text-fuchsia-300 font-medium">
         Technologies
       </h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
