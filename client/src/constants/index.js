@@ -39,7 +39,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Clay Clutter App",
+    title: "Mama Well App",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
@@ -53,14 +53,14 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Clay Clutter App",
+    title: "Auto-Sneakers Bot",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Clay Clutter App",
+    title: "Portfolio Website",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
