@@ -581,6 +581,10 @@ video {
   }
 }
 
+.visible{
+  visibility: visible;
+}
+
 .fixed{
   position: fixed;
 }
@@ -591,18 +595,6 @@ video {
 
 .relative{
   position: relative;
-}
-
-.bottom-auto{
-  bottom: auto;
-}
-
-.left-auto{
-  left: auto;
-}
-
-.right-0{
-  right: 0px;
 }
 
 .top-0{
@@ -677,8 +669,8 @@ video {
   display: flex;
 }
 
-.h-\[500px\]{
-  height: 500px;
+.hidden{
+  display: none;
 }
 
 .h-full{
@@ -697,10 +689,6 @@ video {
   width: 75%;
 }
 
-.w-\[500px\]{
-  width: 500px;
-}
-
 .w-full{
   width: 100%;
 }
@@ -715,16 +703,6 @@ video {
 
 .flex-shrink-0{
   flex-shrink: 0;
-}
-
-.-translate-x-\[30\%\]{
-  --tw-translate-x: -30%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-y-\[20\%\]{
-  --tw-translate-y: 20%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col{
@@ -763,14 +741,6 @@ video {
   border-radius: 1rem;
 }
 
-.rounded-full{
-  border-radius: 9999px;
-}
-
-.border-4{
-  border-width: 4px;
-}
-
 .border-b{
   border-bottom-width: 1px;
 }
@@ -785,8 +755,9 @@ video {
   border-color: rgb(23 23 23 / var(--tw-border-opacity));
 }
 
-.bg-\[rgba\(173\2c 109\2c 244\2c 0\.5\)\]{
-  background-color: rgba(173,109,244,0.5);
+.bg-neutral-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 64 64 / var(--tw-bg-opacity));
 }
 
 .bg-neutral-900{
@@ -799,22 +770,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-neutral-700{
-  --tw-bg-opacity: 1;
-  background-color: rgb(64 64 64 / var(--tw-bg-opacity));
-}
-
-.bg-neutral-600{
-  --tw-bg-opacity: 1;
-  background-color: rgb(82 82 82 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[radial-gradient\(\#e5e7eb_1px\2c transparent_1px\)\]{
-  background-image: radial-gradient(#e5e7eb 1px,transparent 1px);
 }
 
 .from-pink-300{
@@ -859,6 +816,11 @@ video {
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .pb-16{
@@ -947,11 +909,6 @@ video {
   color: rgb(132 204 22 / var(--tw-text-opacity));
 }
 
-.text-neutral-200{
-  --tw-text-opacity: 1;
-  color: rgb(229 229 229 / var(--tw-text-opacity));
-}
-
 .text-neutral-300{
   --tw-text-opacity: 1;
   color: rgb(212 212 212 / var(--tw-text-opacity));
@@ -977,11 +934,6 @@ video {
   color: rgb(249 168 212 / var(--tw-text-opacity));
 }
 
-.text-purple-100{
-  --tw-text-opacity: 1;
-  color: rgb(243 232 255 / var(--tw-text-opacity));
-}
-
 .text-purple-200{
   --tw-text-opacity: 1;
   color: rgb(233 213 255 / var(--tw-text-opacity));
@@ -992,9 +944,9 @@ video {
   color: rgb(216 180 254 / var(--tw-text-opacity));
 }
 
-.text-purple-800{
+.text-purple-500{
   --tw-text-opacity: 1;
-  color: rgb(107 33 168 / var(--tw-text-opacity));
+  color: rgb(168 85 247 / var(--tw-text-opacity));
 }
 
 .text-sky-400{
@@ -1016,37 +968,17 @@ video {
   color: rgb(167 139 250 / var(--tw-text-opacity));
 }
 
-.text-purple-500{
-  --tw-text-opacity: 1;
-  color: rgb(168 85 247 / var(--tw-text-opacity));
-}
-
-.text-purple-400{
-  --tw-text-opacity: 1;
-  color: rgb(192 132 252 / var(--tw-text-opacity));
-}
-
 .antialiased{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.opacity-50{
-  opacity: 0.5;
-}
-
-.blur-\[80px\]{
-  --tw-blur: blur(80px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.\[background-size\:16px_16px\]{
-  background-size: 16px 16px;
-}
-
-.\[mask-image\:radial-gradient\(ellipse_50\%_50\%_at_50\%_50\%\2c \#000_70\%\2c transparent_100\%\)\]{
-  -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 50%,#000 70%,transparent 100%);
-          mask-image: radial-gradient(ellipse 50% 50% at 50% 50%,#000 70%,transparent 100%);
+.transition{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 :root {
