@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
-            <h1 className="pb-16 text-6xl font-medium tracking-tight lg:mt-16 lg:text-8xl text-neutral-800">
+            <h1 className="pb-16 text-6xl font-medium tracking-tight lg:mt-16 lg:text-8xl text-neutral-700">
               Hello, I'm Mafruha !
             </h1>
 

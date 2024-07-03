@@ -14,30 +14,30 @@ const Technologies = () => {
         Technologies
       </h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        <div className="rounded-2xl p-4">
           <RiReactjsLine className="text-5xl text-cyan-400" />
         </div>
 
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        <div className="rounded-2xl p-4">
           <SiMongodb className="text-5xl text-green-500" />
         </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        <div className="rounded-2xl  p-4">
           <FaNodeJs className="text-5xl text-lime-500" />
         </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        <div className="rounded-2xl p-4">
           <RiTailwindCssFill className="text-5xl text-sky-400" />
         </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        <div className="rounded-2xl p-4">
           <IoLogoFirebase className="text-5xl text-amber-400" />
         </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <RiReactjsLine className="text-5xl text-white-400" />
+        <div className="rounded-2xl p-4">
+          <RiReactjsLine className="text-5xl text-neutral-300" />
         </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        <div className="rounded-2xl  p-4">
           <FaPython className="text-5xl text-sky-900" />
         </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <SiFlask className="text-5xl text-neutral-200" />
+        <div className="rounded-2xl p-4">
+          <SiFlask className="text-5xl text-neutral-400" />
         </div>
       </div>
     </div>

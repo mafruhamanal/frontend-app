@@ -4,7 +4,7 @@ export const HERO_CONTENT = `I'm Mafruha Manal, currently an undergrad in Comput
 
 `;
 
-export const ABOUT_TEXT = `I love to code (🤯) and enjoy working on little projects on the side 💻 It's always so so fun to dive in and learn new skills first-hand, it's how I learn best! Outside of programming, I enjoy doing digital art 🖌️, playing video games 🎮 and watching k-dramas 🍿 for fun.`;
+export const ABOUT_TEXT = `I love to code (🤯) and enjoy working on little projects on the side 💻 It's always so so fun to just dive in and learn new skills first-hand, it's how I learn best! Outside of programming, I enjoy doing digital art 🖌️, playing video games 🎮 and watching k-dramas 🍿 for fun.`;
 
 export const EXPERIENCES = [
   {
