@@ -1,4 +1,7 @@
 import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I'm Mafruha Manal, currently an undergrad in Computer Science 🚀 I like to dabble in a whole lot of web dev stuff 👩🏽‍💻, and lately I've been really into exploring mobile dev as well !📲
 
@@ -43,29 +46,29 @@ export const PROJECTS = [
     title: "Mama Well App",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed an iOS care app for postpartum mothers, awarded Honorable Mentions at the 2024 Black Wings Hacks. Integrated features for tracking common post-labor symptoms and monitoring water intake to promote self-care. Implemented a booking system with integrated reminders for doctor appointments or check-ins post-labor.",
+    technologies: ["React Native", "Firebase", "Cloud Firestore", "Expo"],
   },
   {
     title: "Clay Clutter App",
-    image: project1,
+    image: project2,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Built a full-stack CRUD web app for pottery artists to help accelerate pottery documentation and progress. Implemented essential features including user registration, customizable clay progress stages, and content feeds. Authenticated users with JSON Web Tokens and bcrypt hashing to facilitate secure user logins.",
+    technologies: ["React", "MongoDB", "Mongoose", "Express.js", "Node.js"],
   },
   {
     title: "Auto-Sneakers Bot",
-    image: project1,
+    image: project5,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Wrote a Python script to send WhatsApp alerts any time a pair of limited edition trainers is available in my size. Automatically adds the item to my shopping cart on eBay, streamlining my purchasing processes to minimize the risk of missing highly sought-after products!",
+    technologies: ["Python", "Selenium", "BeautifulSoup", "Pywhatkit"],
   },
   {
-    title: "Portfolio Website",
-    image: project1,
+    title: "Personal Website",
+    image: project3,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Built a simple portfolio website to share a little about myself, my tech ventures and the lil side projects I've done ✨",
+    technologies: ["React", "JavaScript", "Tailwind CSS", "Framer Motion"],
   },
 ];
 
