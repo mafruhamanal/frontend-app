@@ -31,9 +31,9 @@ const Experiences = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">
+              <h6 className="mb-2 font-semibold  text-lg">
                 {experience.role} - {""}
-                <span className="text-sm text-purple-500">
+                <span className=" text-lg text-purple-500">
                   {experience.company}
                 </span>{" "}
               </h6>
