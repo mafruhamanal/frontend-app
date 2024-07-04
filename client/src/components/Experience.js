@@ -19,7 +19,7 @@ const Experiences = () => {
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
+              initial={{ opacity: 0, x: -50 }}
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
@@ -27,7 +27,7 @@ const Experiences = () => {
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
+              initial={{ opacity: 0, x: 50 }}
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
