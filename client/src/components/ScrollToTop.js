@@ -10,7 +10,7 @@ export const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
-    if (window.pageYOffset > 1900) {
+    if (window.pageYOffset > 100) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -32,7 +32,7 @@ export const ScrollToTop = () => {
   }, []);
 
   return (
-    <div className="border-b text-center border-neutral-900 pb-4 py-12 pt-14 container mx-auto px-4">
+    <div className=" text-center pb-4 py-12 pt-14 container mx-auto">
       <motion.button
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -40 }}
