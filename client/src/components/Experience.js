@@ -1,12 +1,18 @@
 import { EXPERIENCES } from "../constants";
+import { motion } from "framer-motion";
 
 const Experiences = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 pt-14">
-      <h2 className="my-12 text-center text-4xl text-violet-400 font-medium">
+      <motion.h2
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1.5 }}
+        className="my-12 text-center text-4xl text-violet-400 font-medium"
+      >
         {" "}
         My Experiences
-      </h2>
+      </motion.h2>
 
       <div>
         {EXPERIENCES.map((experience, index) => (
