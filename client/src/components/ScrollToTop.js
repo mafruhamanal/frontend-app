@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { BiArrowFromBottom } from "react-icons/bi";
+import { FaArrowUp } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
-// Utility function to combine class names
 const classNames = (...classes) => {
   return classes.filter(Boolean).join(" ");
 };
@@ -32,17 +32,22 @@ export const ScrollToTop = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-2 right-2">
-      <button
+    <div className="border-b text-center border-neutral-900 pb-4 py-12 pt-14 container mx-auto px-4">
+      <motion.button
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -40 }}
+        transition={{ duration: 1 }}
         type="button"
         onClick={scrollToTop}
         className={classNames(
           isVisible ? "opacity-100" : "opacity-0",
-          "bg-neutral-400 hover:bg-neutral-700 inline-flex items-center rounded-full p-3 text-white shadow-sm transition-opacity focus:outline-none"
+          "bg-neutral-700 hover:bg-neutral-900 inline-flex items-center rounded-full p-3 text-white shadow-sm transition-opacity focus:outline-none"
         )}
       >
         Scroll To Top
-      </button>
+        <p className="px-2">{""}</p>
+        <FaArrowUp />
+      </motion.button>
     </div>
   );
 };
