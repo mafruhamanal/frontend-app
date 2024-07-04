@@ -21,7 +21,7 @@ export const EXPERIENCES = [
     year: "July 2024 - Present",
     role: "Undergraduate Research Aide",
     company: "University at Buffalo",
-    description: `Maintaining Wireless Topology Tool, a Flask web app for topology simulation to integrate real geographic data for wireless network research. Integrate a dynamic display feature for NS3 simulation results by transforming large JSON topology data.`,
+    description: `Maintain Wireless Topology Tool, a Flask web app for topology simulation to integrate real geographic data for wireless network research. Integrate a dynamic display feature for NS3 simulation results by transforming large JSON topology data.`,
     technologies: ["Flask", "MySQL", "SQLAlchemy", "JavaScript", "Python"],
   },
   {
@@ -47,7 +47,12 @@ export const PROJECTS = [
     image: project1,
     description:
       "Developed an iOS care app for postpartum mothers, awarded Honorable Mentions at the 2024 Black Wings Hacks. Integrated features for tracking common post-labor symptoms and monitoring water intake to promote self-care. Implemented a booking system with integrated reminders for doctor appointments or check-ins post-labor.",
-    technologies: ["React-Native", "Firebase", "Cloud-Firestore", "Expo"],
+    technologies: [
+      "React_Native",
+      "Firebase",
+      "Cloud_Firestore",
+      "Expo",
+    ],
   },
   {
     title: "Clay Clutter App",
@@ -68,7 +73,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "Built a simple portfolio website to share a little about myself, my tech ventures and the lil side projects I've done ✨",
-    technologies: ["React", "JavaScript", "Tailwind-CSS", "Framer-Motion"],
+    technologies: ["React", "JavaScript", "Tailwind_CSS", "Framer_Motion"],
   },
 ];
 
