@@ -15,14 +15,14 @@ export const EXPERIENCES = [
     role: "Software Engineer Intern",
     company: "X Lab",
     description: `Develop a cross-platform mobile app in React Native to monitor indoor farms at the lab with Augmented Reality. Currently working on a coordinate-specific metric display for 3D plant models to monitor plant health and identify signs of diseases/deficiencies`,
-    technologies: ["React-Native", "Firebase", "Unity", "C#", "Javascript"],
+    technologies: ["React_Native", "Firebase", "Unity", "C#", "Javascript"],
   },
   {
     year: "July 2024 - Present",
     role: "Undergraduate Research Aide",
     company: "University at Buffalo",
     description: `Maintain Wireless Topology Tool, a Flask web app for topology simulation to integrate real geographic data for wireless network research. Integrate a dynamic display feature for NS3 simulation results by transforming large JSON topology data.`,
-    technologies: ["Flask", "MySQL", "SQLAlchemy", "JavaScript", "Python"],
+    technologies: ["Flask", "MySQL", "JavaScript", "Python"],
   },
   {
     year: "Jan 2020 - Jun 2022",
@@ -47,19 +47,14 @@ export const PROJECTS = [
     image: project1,
     description:
       "Developed an iOS care app for postpartum mothers, awarded Honorable Mentions at the 2024 Black Wings Hacks. Integrated features for tracking common post-labor symptoms and monitoring water intake to promote self-care. Implemented a booking system with integrated reminders for doctor appointments or check-ins post-labor.",
-    technologies: [
-      "React_Native",
-      "Firebase",
-      "Cloud_Firestore",
-      "Expo",
-    ],
+    technologies: ["React_Native", "Firebase", "Firestore", "Expo"],
   },
   {
     title: "Clay Clutter App",
     image: project2,
     description:
       "Built a full-stack CRUD web app for pottery artists to help accelerate pottery documentation and progress. Implemented essential features including user registration, customizable clay progress stages, and content feeds. Authenticated users with JSON Web Tokens and bcrypt hashing to facilitate secure user logins.",
-    technologies: ["React", "MongoDB", "Mongoose", "Express.js", "Node.js"],
+    technologies: ["React", "MongoDB", "Express.js", "Node.js"],
   },
   {
     title: "Auto-Sneakers Bot",
@@ -73,7 +68,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "Built a simple portfolio website to share a little about myself, my tech ventures and the lil side projects I've done ✨",
-    technologies: ["React", "JavaScript", "Tailwind_CSS", "Framer_Motion"],
+    technologies: ["React", "JavaScript", "Tailwind", "Framer_Motion"],
   },
 ];
 
