@@ -25,7 +25,7 @@ const About = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1.5 }}
-          className="w-full lg:w-1/2 mt-32 py-6"
+          className="w-full lg:w-1/2 mt-32 py-2"
         >
           <div className="flex justify-center lg:justify-start">
             <div className="max-w-xl text-neutral-700">
