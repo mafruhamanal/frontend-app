@@ -15,7 +15,7 @@ export const EXPERIENCES = [
     role: "Software Engineer Intern",
     company: "X Lab",
     description: `Develop a cross-platform mobile app in React Native to monitor indoor farms at the lab with Augmented Reality. Currently working on a coordinate-specific metric display for 3D plant models to monitor plant health and identify signs of diseases/deficiencies`,
-    technologies: [ "React Native", "Firebase", "Unity", "C#", "Javascript"],
+    technologies: ["React-Native", "Firebase", "Unity", "C#", "Javascript"],
   },
   {
     year: "July 2024 - Present",
@@ -38,7 +38,7 @@ application processes, holding monthly meet-ups to facilitate access to resource
     company: "Amino Apps",
     description: `Supervised a team of 20 curators, overseeing an online community of 2 million+ members under Narvii, Inc. Settled 20+ support tickets daily using internal dev tools and Jira to resolve technical flags in public servers.`,
     technologies: [],
-  }
+  },
 ];
 
 export const PROJECTS = [
@@ -47,7 +47,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Developed an iOS care app for postpartum mothers, awarded Honorable Mentions at the 2024 Black Wings Hacks. Integrated features for tracking common post-labor symptoms and monitoring water intake to promote self-care. Implemented a booking system with integrated reminders for doctor appointments or check-ins post-labor.",
-    technologies: ["React Native", "Firebase", "Cloud Firestore", "Expo"],
+    technologies: ["React-Native", "Firebase", "Cloud-Firestore", "Expo"],
   },
   {
     title: "Clay Clutter App",
