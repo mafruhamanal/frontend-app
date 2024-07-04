@@ -609,10 +609,6 @@ video {
   z-index: -10;
 }
 
-.z-\[-2\]{
-  z-index: -2;
-}
-
 .m-8{
   margin: 2rem;
 }
@@ -684,20 +680,12 @@ video {
   height: 100%;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .w-3\/4{
   width: 75%;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-screen{
-  width: 100vw;
 }
 
 .max-w-xl{
@@ -786,16 +774,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[linear-gradient\(to_right\2c \#f0f0f0_1px\2c transparent_1px\)\2c linear-gradient\(to_bottom\2c \#f0f0f0_1px\2c transparent_1px\)\]{
-  background-image: linear-gradient(to right,#f0f0f0 1px,transparent 1px),linear-gradient(to bottom,#f0f0f0 1px,transparent 1px);
+.bg-\[linear-gradient\(to_right\2c \#8080800a_1px\2c transparent_1px\)\2c linear-gradient\(to_bottom\2c \#8080800a_1px\2c transparent_1px\)\]{
+  background-image: linear-gradient(to right,#8080800a 1px,transparent 1px),linear-gradient(to bottom,#8080800a 1px,transparent 1px);
 }
 
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[linear-gradient\(to_right\2c \#8080800a_1px\2c transparent_1px\)\2c linear-gradient\(to_bottom\2c \#8080800a_1px\2c transparent_1px\)\]{
-  background-image: linear-gradient(to right,#8080800a 1px,transparent 1px),linear-gradient(to bottom,#8080800a 1px,transparent 1px);
 }
 
 .from-pink-300{
@@ -811,10 +795,6 @@ video {
 
 .to-purple-500{
   --tw-gradient-to: #a855f7 var(--tw-gradient-to-position);
-}
-
-.bg-\[size\:6rem_4rem\]{
-  background-size: 6rem 4rem;
 }
 
 .bg-\[size\:14px_24px\]{
