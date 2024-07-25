@@ -41,7 +41,7 @@ const Technologies = () => {
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-fuchsia-100 p-4"
+          className="rounded-2xl p-4"
         >
           <RiReactjsLine className="text-5xl text-cyan-400" />
         </motion.div>
@@ -50,7 +50,7 @@ const Technologies = () => {
           variants={iconVariants(3.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-fuchsia-100 p-4"
+          className="rounded-2xl p-4"
         >
           <FaNodeJs className="text-5xl text-lime-500" />
         </motion.div>
@@ -58,7 +58,7 @@ const Technologies = () => {
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-fuchsia-100 p-4"
+          className="rounded-2xl p-4"
         >
           <SiMongodb className="text-5xl text-green-500" />
         </motion.div>
@@ -66,7 +66,7 @@ const Technologies = () => {
           variants={iconVariants(3.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-fuchsia-100 p-4"
+          className="rounded-2xl p-4"
         >
           <RiTailwindCssFill className="text-5xl text-sky-400" />
         </motion.div>
@@ -75,7 +75,7 @@ const Technologies = () => {
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-fuchsia-100 p-4"
+          className="rounded-2xl p-4"
         >
           <IoLogoFirebase className="text-5xl text-amber-400" />
         </motion.div>
@@ -83,7 +83,7 @@ const Technologies = () => {
           variants={iconVariants(3.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-fuchsia-100 p-4"
+          className="rounded-2xl p-4"
         >
           <RiReactjsLine className="text-5xl text-neutral-300" />
         </motion.div>
@@ -91,7 +91,7 @@ const Technologies = () => {
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-fuchsia-100 p-4"
+          className="rounded-2xl p-4"
         >
           <FaJava className="text-5xl text-sky-400" />
         </motion.div>
@@ -99,7 +99,7 @@ const Technologies = () => {
           variants={iconVariants(3.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-fuchsia-100 p-4"
+          className="rounded-2xl p-4"
         >
           <SiFlask className="text-5xl text-neutral-400" />
         </motion.div>
