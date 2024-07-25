@@ -12,7 +12,7 @@ export const ABOUT_TEXT = `I love to code (🤯) and enjoy working on little pro
 export const EXPERIENCES = [
   {
     year: "June 2024 - Present",
-    role: "Software Engineer Intern",
+    role: "Software Developer Intern",
     company: "X Lab",
     description: `Develop a cross-platform mobile app in React Native to monitor indoor farms at the lab with Augmented Reality. Currently working on a coordinate-specific metric display for 3D plant models to monitor plant health and identify signs of diseases/deficiencies`,
     technologies: ["React_Native", "Firebase", "Unity", "C#", "Javascript"],
