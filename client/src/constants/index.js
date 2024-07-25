@@ -21,14 +21,14 @@ export const EXPERIENCES = [
     year: "July 2024 - Present",
     role: "Undergraduate Research Aide",
     company: "University at Buffalo",
-    description: `Maintain Wireless Topology Tool, a Flask web app for topology simulation to integrate real geographic data for wireless network research. Integrate a dynamic display feature for NS3 simulation results by transforming large JSON topology data.`,
+    description: `Maintain Wireless Topology Tool, a Flask web app for topology simulation to integrate real geographic data for wireless network research. Integrate a dynamic display feature for NS3 simulation results by transforming large JSON topology data`,
     technologies: ["Flask", "MySQL", "JavaScript", "Python"],
   },
   {
     year: "Jan 2020 - Jun 2022",
     role: "Founder & Instructor",
     company: "Brown Women for STEM",
-    description: `Provided 30 underprivileged students with one-on-one lessons in Computer Science and Mathematics once a week. Connected 7 women with full-ride college scholarships totaling $151,000 by mentoring students through their
+    description: `Provided 30 underprivileged students with one-on-one lessons in Computer Science and Mathematics once a week. Connected 7 women with full-ride college scholarships by mentoring students through
 application processes`,
     technologies: ["Javascript", "Python"],
   },
@@ -36,7 +36,7 @@ application processes`,
     year: "June 2020 - Dec 2022",
     role: "Technical Lead",
     company: "Amino Apps",
-    description: `Supervised a team of 20 curators, overseeing an online community of 2 million+ members under Narvii, Inc. Settled 20+ support tickets daily using internal dev tools and Jira to resolve technical flags in public servers.`,
+    description: `Supervised a team of 20 curators, overseeing an online community of 2 million+ members under Narvii, Inc. Settled 20+ support tickets daily using internal dev tools and Jira to resolve technical flags in public servers`,
     technologies: [],
   },
 ];
@@ -46,7 +46,7 @@ export const PROJECTS = [
     title: "Mama Well App",
     image: project1,
     description:
-      "Developed an iOS care app for postpartum mothers, awarded Honorable Mentions at the 2024 Black Wings Hacks. Integrated features for tracking common post-labor symptoms and monitoring water intake to promote self-care. Implemented a booking system with integrated reminders for doctor appointments or check-ins post-labor.",
+      "Developed an iOS care app for postpartum mothers, awarded Honorable Mentions at the 2024 Black Wings Hacks. Integrated features for tracking common post-labor symptoms and monitoring water intake to promote self-care. Implemented a booking system with integrated reminders for doctor appointments or check-ins post-labor",
     technologies: ["React_Native", "Firebase", "Firestore", "Expo"],
   },
   {
@@ -67,7 +67,7 @@ export const PROJECTS = [
     title: "Personal Website",
     image: project3,
     description:
-      "A simple portfolio website to share a little about myself, my tech ventures and the lil side projects I've done! ✨",
+      "A simple portfolio website to share a little about myself, my tech ventures and the lil side projects I've done ✨",
     technologies: ["React", "JavaScript", "Tailwind", "Framer_Motion"],
   },
 ];
