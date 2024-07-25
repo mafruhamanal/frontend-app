@@ -26,11 +26,11 @@ export const EXPERIENCES = [
   },
   {
     year: "Jan 2020 - Jun 2022",
-    role: "Founder & Coding Instructor",
+    role: "Founder & Instructor",
     company: "Brown Women for STEM",
     description: `Provided 30 underprivileged students with one-on-one lessons in Computer Science and Mathematics once a week. Connected 7 women with full-ride college scholarships totaling $151,000 by mentoring students through their
-application processes, holding monthly meet-ups to facilitate access to resources and opportunities.`,
-    technologies: ["HTML", "CSS", "Javascript", "Python"],
+application processes`,
+    technologies: ["Javascript", "Python"],
   },
   {
     year: "June 2020 - Dec 2022",
@@ -67,13 +67,7 @@ export const PROJECTS = [
     title: "Personal Website",
     image: project3,
     description:
-      "Built a simple portfolio website to share a little about myself, my tech ventures and the lil side projects I've done ✨",
+      "A simple portfolio website to share a little about myself, my tech ventures and the lil side projects I've done! ✨",
     technologies: ["React", "JavaScript", "Tailwind", "Framer_Motion"],
   },
 ];
-
-export const CONTACT = {
-  address: "Buffalo, New York, NY 14215 ",
-  phoneNo: "+1 716 986 2914",
-  email: "mafruhamanal1@gmail.com",
-};
