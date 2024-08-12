@@ -46,7 +46,7 @@ export const PROJECTS = [
     title: "Mama Well App",
     image: project1,
     description:
-      "Developed an iOS care app for postpartum mothers, awarded Honorable Mentions at the 2024 Black Wings Hacks. Integrated features for tracking common post-labor symptoms and monitoring water intake to promote self-care. Implemented a booking system with integrated reminders for doctor appointments or check-ins post-labor",
+      "Developed an iOS care app for postpartum mothers with Honorable Mentions at the 2024 Black Wings Hacks. Integrated features for tracking common post-labor symptoms and monitoring water intake to promote self-care. Implemented a booking system with integrated reminders for doctor appointments or check-ins post-labor",
     technologies: ["React_Native", "Firebase", "Firestore", "Expo"],
   },
   {
