@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `I'm Mafruha Manal, currently an undergrad in Computer Science 🚀 I like to dabble in a whole lot of web dev stuff 👩🏽‍💻, and lately I've been really into exploring mobile dev as well !📲
 
@@ -43,11 +44,24 @@ application processes`,
 
 export const PROJECTS = [
   {
+    title: "AI Valorant Chatbot",
+    image: project6,
+    description:
+      "The AI chat assistant delivers contextual responses to user queries, providing in-game strategies to rank up, finding the right weapons, or learning more about agents, abilities and gameplay. Implemented RAG, leveraging LangChain for knowledge base management and storing vector embeddings in Supabase for retrieval",
+    technologies: [
+      "Nextjs",
+      "OpenAI",
+      "LangChain",
+      "Supabase Vector Store",
+      "Material UI",
+    ],
+  },
+  {
     title: "Mama Well App",
     image: project1,
     description:
       "Developed an iOS care app for postpartum mothers with Honorable Mentions at the 2024 Black Wings Hacks. Integrated features for tracking common post-labor symptoms and monitoring water intake to promote self-care. Implemented a booking system with integrated reminders for doctor appointments or check-ins post-labor",
-    technologies: ["React_Native", "Firebase", "Firestore", "Expo"],
+    technologies: ["React Native", "Firebase", "Firestore", "Expo"],
   },
   {
     title: "Clay Clutter App",
@@ -68,6 +82,6 @@ export const PROJECTS = [
     image: project3,
     description:
       "A simple portfolio website to share a little about myself, my tech ventures and the lil side projects I've done ✨",
-    technologies: ["React", "JavaScript", "Tailwind", "Framer_Motion"],
+    technologies: ["React", "JavaScript", "Tailwind CSS", "Framer Motion"],
   },
 ];
