@@ -18,7 +18,7 @@ export const EXPERIENCES = [
     company: "University at Buffalo",
     description:
       "Assist 2 professors in teaching 260 students object-oriented programming in Java by hosting 4 weekly office hours. Instruct 25 students in a weekly lab, proctor exams, and enhance comprehension of 9 data structure concepts. Clarify student questions received from a coding forum.",
-    technologies: ["Java", "JUnit", "OOP"],
+    technologies: ["Java", "JUnit", "Object-oriented Programming"],
   },
   {
     year: "June 2024 - Present",
