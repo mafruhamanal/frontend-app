@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
 
 export const HERO_CONTENT = `I'm Mafruha Manal, currently an undergrad in Computer Science 🚀 I like to dabble in a whole lot of web dev stuff 👩🏽‍💻, and lately I've been really into exploring mobile dev as well !📲
 
@@ -16,7 +17,7 @@ export const EXPERIENCES = [
     role: "Undergraduate Teaching Assistant",
     company: "University at Buffalo",
     description:
-      "Assist 2 professors in teaching 260 students object-oriented programming in Java by hosting 4 weekly office hours. Instruct 25 students in a weekly lab, proctor exams, and enhance comprehension of 9 data structure concepts.",
+      "Assist 2 professors in teaching 260 students object-oriented programming in Java by hosting 4 weekly office hours. Instruct 25 students in a weekly lab, proctor exams, and enhance comprehension of 9 data structure concepts. Clarify student questions received from a coding forum.",
     technologies: ["Java", "JUnit", "OOP"],
   },
   {
@@ -51,6 +52,20 @@ application processes`,
 ];
 
 export const PROJECTS = [
+  {
+    title: "BenefitForAll - J.P. Morgan Code for Good 2024",
+    image: project7,
+    description:
+      "Developed a web app in team of 8 for a non-profit, First Gen Investors, to enhance financial literacy for high school students. Leveraged Firebase and AG Grid for data retrieval and CSV generation, reducing report creation time by an hour. 1 of 73 students invited to participate in JP Morgan Chase's Code for Good in Jersey City.",
+    technologies: [
+      "React",
+      "Vite",
+      "Firebase",
+      "Chart.js",
+      "AG Grid",
+      "Material UI",
+    ],
+  },
   {
     title: "AI Valorant Chatbot",
     image: project6,
