@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `I'm Mafruha Manal, currently an undergrad in Computer Science 🚀 I like to dabble in a whole lot of web dev stuff 👩🏽‍💻, and lately I've been really into exploring mobile dev as well !📲
 
@@ -20,7 +21,7 @@ export const EXPERIENCES = [
   },
   {
     year: "June 2024 - Present",
-    role: "Software Engineer Intern",
+    role: "Software Developer Intern",
     company: "X Lab",
     description: `Develop a cross-platform mobile app in React Native to monitor indoor farms at the lab with Augmented Reality. Implement backend logic in C# for touch detection, rotation and pinch-to-scale interactions with 3D models. Build a coordinate-specific metric display for 3D plant models to monitor plant health and identify signs of diseases/deficiencies.`,
     technologies: ["React_Native", "Firebase", "Unity", "C#", "Javascript"],
@@ -29,33 +30,46 @@ export const EXPERIENCES = [
     year: "July 2024 - Present",
     role: "Undergraduate Research Aide",
     company: "University at Buffalo",
-    description: `Maintain Wireless Topology Tool, a Flask web app for topology simulation to integrate real geographic data for wireless network research. Integrate a dynamic display feature for NS3 simulation results by transforming large JSON topology data.`,
+    description: `Maintain Wireless Topology Tool, a Flask web app for topology simulation to integrate real geographic data for wireless network research. Integrate a dynamic display feature for NS3 simulation results by transforming large JSON topology data`,
     technologies: ["Flask", "MySQL", "JavaScript", "Python"],
   },
   {
     year: "Jan 2020 - Jun 2022",
-    role: "Founder & Coding Instructor",
+    role: "Founder & Instructor",
     company: "Brown Women for STEM",
-    description: `Provided 30 underprivileged students with one-on-one lessons in Computer Science and Mathematics once a week. Connected 7 women with full-ride college scholarships totaling $151,000 by mentoring students through their
-application processes, holding monthly meet-ups to facilitate access to resources and opportunities.`,
-    technologies: ["HTML", "CSS", "Javascript", "Python"],
+    description: `Provided 30 underprivileged students with one-on-one lessons in Computer Science and Mathematics once a week. Connected 7 women with full-ride college scholarships by mentoring students through
+application processes`,
+    technologies: ["Javascript", "Python"],
   },
   {
     year: "June 2020 - Dec 2022",
     role: "Technical Lead",
     company: "Amino Apps",
-    description: `Supervised a team of 20 curators, overseeing an online community of 2 million+ members under Narvii, Inc. Settled 20+ support tickets daily using internal dev tools and Jira to resolve technical flags in public servers.`,
+    description: `Supervised a team of 20 curators, overseeing an online community of 2 million+ members under Narvii, Inc. Settled 20+ support tickets daily using internal dev tools and Jira to resolve technical flags in public servers`,
     technologies: [],
   },
 ];
 
 export const PROJECTS = [
   {
+    title: "AI Valorant Chatbot",
+    image: project6,
+    description:
+      "The AI chat assistant delivers contextual responses to user queries, providing in-game strategies to rank up, finding the right weapons, or learning more about agents, abilities and gameplay. Implemented RAG, leveraging LangChain for knowledge base management and storing vector embeddings in Supabase for retrieval",
+    technologies: [
+      "Nextjs",
+      "OpenAI",
+      "LangChain",
+      "Supabase Vector Store",
+      "Material UI",
+    ],
+  },
+  {
     title: "Mama Well App",
     image: project1,
     description:
-      "Developed an iOS care app for postpartum mothers, awarded Honorable Mentions at the 2024 Black Wings Hacks. Integrated features for tracking common post-labor symptoms and monitoring water intake to promote self-care. Implemented a booking system with integrated reminders for doctor appointments or check-ins post-labor.",
-    technologies: ["React_Native", "Firebase", "Firestore", "Expo"],
+      "Developed an iOS care app for postpartum mothers with Honorable Mentions at the 2024 Black Wings Hacks. Integrated features for tracking common post-labor symptoms and monitoring water intake to promote self-care. Implemented a booking system with integrated reminders for doctor appointments or check-ins post-labor",
+    technologies: ["React Native", "Firebase", "Firestore", "Expo"],
   },
   {
     title: "Clay Clutter App",
@@ -75,13 +89,7 @@ export const PROJECTS = [
     title: "Personal Website",
     image: project3,
     description:
-      "Built a simple portfolio website to share a little about myself, my tech ventures and the lil side projects I've done ✨",
-    technologies: ["React", "JavaScript", "Tailwind", "Framer_Motion"],
+      "A simple portfolio website to share a little about myself, my tech ventures and the lil side projects I've done ✨",
+    technologies: ["React", "JavaScript", "Tailwind CSS", "Framer Motion"],
   },
 ];
-
-export const CONTACT = {
-  address: "Buffalo, New York, NY 14215 ",
-  phoneNo: "+1 716 986 2914",
-  email: "mafruhamanal1@gmail.com",
-};
