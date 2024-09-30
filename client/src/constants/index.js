@@ -11,10 +11,18 @@ export const ABOUT_TEXT = `I love to code (🤯) and enjoy working on little pro
 
 export const EXPERIENCES = [
   {
+    year: "Aug 2024 - Present",
+    role: "Undergraduate Teaching Assistant",
+    company: "University at Buffalo",
+    description:
+      "Assist 2 professors in teaching 260 students object-oriented programming in Java by hosting 4 weekly office hours. Instruct 25 students in a weekly lab, proctor exams, and enhance comprehension of 9 data structure concepts.",
+    technologies: ["Java", "JUnit", "OOP"],
+  },
+  {
     year: "June 2024 - Present",
     role: "Software Engineer Intern",
     company: "X Lab",
-    description: `Develop a cross-platform mobile app in React Native to monitor indoor farms at the lab with Augmented Reality. Currently working on a coordinate-specific metric display for 3D plant models to monitor plant health and identify signs of diseases/deficiencies`,
+    description: `Develop a cross-platform mobile app in React Native to monitor indoor farms at the lab with Augmented Reality. Implement backend logic in C# for touch detection, rotation and pinch-to-scale interactions with 3D models. Build a coordinate-specific metric display for 3D plant models to monitor plant health and identify signs of diseases/deficiencies.`,
     technologies: ["React_Native", "Firebase", "Unity", "C#", "Javascript"],
   },
   {
