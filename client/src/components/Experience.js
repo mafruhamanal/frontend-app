@@ -8,7 +8,7 @@ const Experiences = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1 }}
-        className="my-12 py-12 text-center text-4xl text-purple-200 font-medium"
+        className="my-12 py-12 text-center text-4xl text-purple-300 font-medium"
       >
         {" "}
         My Experiences
@@ -33,13 +33,12 @@ const Experiences = () => {
             >
               <h6 className="mb-2 font-semibold text-neutral-700 text-lg">
                 {experience.role} - {""}
-                <span className=" text-lg text-purple-200">
+                <span className=" text-lg text-purple-300">
                   {experience.company}
                 </span>{" "}
               </h6>
               <p className="mb-4 text-neutral-400">{experience.description}</p>
               {experience.technologies.map((tech, index) => (
-              
                 <span
                   key={index}
                   className=" mr-2 mt-4 rounded bg-neutral-700 px-2 py-1 text-sm font-medium text-purple-200"

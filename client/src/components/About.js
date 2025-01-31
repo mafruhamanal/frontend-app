@@ -6,35 +6,38 @@ const About = () => {
   return (
     <div className=" border-b border-neutral-900 pb-24 pt-16">
       <h1 className="py-6 text-center text-4xl font-medium">
-        <motion.span whileInView={{opacity:1, x:0}}
-      initial={{opacity:0, y:-100}}
-      transition={{duration: 1.5}} className="text-purple-300">About Me</motion.span>
+        <motion.span
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 1.5 }}
+          className="text-purple-300"
+        >
+          About Me
+        </motion.span>
       </h1>
       <div className="flex flex-wrap">
-        <motion.div
+        {/*<motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -50 }}
           transition={{ duration: 1.5 }}
           className="w-full lg:w-1/2 lg:p-8"
         >
+          /*
           <div className="flex items-center justify-center">
-            <img src={aboutImg} alt="About Me" className="w-3/4 py-12" />
+             <img alt="About Me" className="w-3/4 py-12" /> 
           </div>
-        </motion.div>
+          
+        </motion.div>*/}
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 50 }}
           transition={{ duration: 1.5 }}
-          className="w-full lg:w-1/2 mt-32 py-2"
+          className="w-full lg:w-1/2 mt-24 py-2 mx-auto"
         >
-          <div className="flex justify-center lg:justify-start">
-            <div className="max-w-xl text-neutral-700">
+          <div className="flex justify-center">
+            <div className="max-w-xl text-neutral-700 text-center">
               {ABOUT_TEXT}
-              <p className="max-w-xl py-6 ">
-                I'm also a huge Frank Ocean fan! 🎧 Channel Orange on loop + a
-                good can of redbull makes for a real good study session every
-                single time.
-              </p>
+              <p className="max-w-xl py-6"></p>
             </div>
           </div>
         </motion.div>

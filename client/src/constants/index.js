@@ -9,9 +9,18 @@ export const HERO_CONTENT = `I'm Mafruha Manal, currently an undergrad in Comput
 
 `;
 
-export const ABOUT_TEXT = `I love to code (🤯) and enjoy working on little projects on the side 💻 It's always so so fun to just dive in and learn new skills first-hand, it's how I learn best! Outside of programming, I enjoy doing digital art 🖌️, playing video games 🎮 and watching k-dramas 🍿 for fun.`;
+export const ABOUT_TEXT = `I love to code (🤯) and enjoy working on little projects on the side 💻 It's always so so fun to just dive in and learn new skills first-hand, it's how I learn best!
+ Outside of programming, I love digital art and video games 🎮`;
 
 export const EXPERIENCES = [
+  {
+    year: "Dec 2024 - Present",
+    role: "Software Engineer Fellow",
+    company: "Uber",
+    description:
+      "Selected as 1 of 50 software engineering fellows for 2025 Uber Career Prep cohort. Participate in 15 mock interviews in Python with senior engineers, enhancing data structures and algorithm skills. Complete technical assignments and attend 1:1 meetings with mentors to track progress through a 9-month period.",
+    technologies: ["Python", "Data Structures & Algorithms"],
+  },
   {
     year: "Aug 2024 - Present",
     role: "Undergraduate Teaching Assistant",
