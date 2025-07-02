@@ -5,7 +5,7 @@ import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 
-export const HERO_CONTENT = `I'm Mafruha Manal, currently an undergrad in Computer Science 🚀 I like to dabble in a whole lot of web dev stuff 👩🏽‍💻, and lately I've been really into exploring mobile dev as well !📲
+export const HERO_CONTENT = `I'm Mafruha Manal, currently an rising junior in Computer Science 🚀 I like to dabble in a whole lot of fullstack dev stuff 👩🏽‍💻, and lately I've been really into exploring mobile dev as well !📲
 
 `;
 
@@ -13,6 +13,14 @@ export const ABOUT_TEXT = `I love to code (🤯) and enjoy working on little pro
  Outside of programming, I love digital art and video games 🎮`;
 
 export const EXPERIENCES = [
+  {
+    year: "Apr 2025 - Present",
+    role: "Software Engineer Fellow",
+    company: "Netflix",
+    description:
+      "Received the Rising Tide Award for outstanding collaboration in pair programming and code review. Completed 350+ hours of training in data structures and distributed systems design, conducting 3 weekly data modelling and design drills across the 16-week program.",
+    technologies: ["Java", "System Design", "DBMS"],
+  },
   {
     year: "Dec 2024 - Present",
     role: "Software Engineer Fellow",
