@@ -5,12 +5,12 @@ import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 
-export const HERO_CONTENT = `I'm Mafruha Manal, currently an rising junior in Computer Science 🚀 I like to dabble in a whole lot of fullstack dev stuff 👩🏽‍💻, and lately I've been really into exploring mobile dev as well !📲
+export const HERO_CONTENT = `I'm Mafruha Manal, currently a rising junior in Computer Science 🚀 I like to dabble in a whole lot of fullstack dev 👩🏽‍💻, and lately I've been really into exploring mobile dev as well !📲
 
 `;
 
 export const ABOUT_TEXT = `I love to code (🤯) and enjoy working on little projects on the side 💻 It's always so so fun to just dive in and learn new skills first-hand, it's how I learn best!
- Outside of programming, I love digital art and video games 🎮`;
+ Outside of programming, I love to do digital art and play video games for fun 🎮`;
 
 export const EXPERIENCES = [
   {
@@ -58,14 +58,7 @@ export const EXPERIENCES = [
     description: `Provided 30 underprivileged students with one-on-one lessons in Computer Science and Mathematics once a week. Connected 7 women with full-ride college scholarships by mentoring students through
 application processes`,
     technologies: ["Javascript", "Python"],
-  },
-  {
-    year: "June 2020 - Dec 2022",
-    role: "Technical Lead",
-    company: "Amino Apps",
-    description: `Supervised a team of 20 curators, overseeing an online community of 2 million+ members under Narvii, Inc. Settled 20+ support tickets daily using internal dev tools and Jira to resolve technical flags in public servers`,
-    technologies: [],
-  },
+  }
 ];
 
 export const PROJECTS = [
