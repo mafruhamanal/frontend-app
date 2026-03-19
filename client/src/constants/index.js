@@ -6,7 +6,7 @@ import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 import ease from "../assets/projects/ease.jpg";
 
-export const HERO_CONTENT = `I'm Mafruha Manal, currently a junior in Computer Science at UB. I like to dabble in a whole lot of Full-stack web development 👩🏽‍💻 Always cooking up a storm and looking for new things to build (drop a project idea my way, I might run with it)
+export const HERO_CONTENT = `I'm Mafruha Manal, currently a junior in Computer Science at UB. I like to dabble in a whole lot of Full-stack web development 👩🏽‍💻 Always cooking up a storm and looking for new things to build
 
 `;
 
