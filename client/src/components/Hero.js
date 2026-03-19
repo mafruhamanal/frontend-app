@@ -51,7 +51,7 @@ const Hero = () => {
             <motion.img initial={{x:30, opacity:0}}
             animate={{x:0, opacity:1}}
             transition={{duration: 1, delay: 1.2}}
-            src={profilePic} alt="Maf" className="w-[28rem] h-[28rem] object-cover rounded-2xl mt-12" />
+            src={profilePic} alt="Maf" className="w-[24rem] h-[24rem] object-cover rounded-2xl mt-12" />
           </div>
         </div>
       </div>

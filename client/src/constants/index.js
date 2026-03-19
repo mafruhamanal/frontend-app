@@ -4,19 +4,27 @@ import project3 from "../assets/projects/project-3.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
+import ease from "../assets/projects/ease.jpg";
 
-export const HERO_CONTENT = `I'm Mafruha Manal, currently a junior in Computer Science at UB. I like to dabble in a whole lot of Full-stack development 👩🏽‍💻 Always cooking up a storm and looking for new things to build (drop a project idea my way, I just might run with it!)
+export const HERO_CONTENT = `I'm Mafruha Manal, currently a junior in Computer Science at UB. I like to dabble in a whole lot of Full-stack web development 👩🏽‍💻 Always cooking up a storm and looking for new things to build (drop a project idea my way, I might run with it)
 
 `;
 
-export const ABOUT_TEXT = `I love to code (🤯) and enjoy working on little projects on the side 💻 It's always so so fun to just dive in and learn new skills first-hand, it's how I learn best!
- Outside of programming, I love to do digital art and play video games for fun 🎮`;
+export const ABOUT_TEXT = `I'm currently located in Buffalo, NY, studying as an undergraduate student in CS with a specialization in Software Systems!
+ Outside of programming, I love to do digital art, watch k-drama and play video games for fun`;
 
 export const EXPERIENCES = [
   {
+    year: "May 2026 - Aug 2026",
+    role: "Incoming Software Engineer Intern",
+    company: "Netflix",
+    description: "",
+    technologies: []
+  },
+  {
     year: "Apr 2025 - Present",
     role: "Software Engineer Fellow",
-    company: "Netflix",
+    company: "Formation",
     description:
       "Received the Rising Tide Award for outstanding collaboration in pair programming and code review. Completed 350+ hours of training in data structures and distributed systems design, conducting 3 weekly data modelling and design drills across the 16-week program.",
     technologies: ["Java", "System Design", "DBMS"],
@@ -50,18 +58,24 @@ export const EXPERIENCES = [
     company: "University at Buffalo",
     description: `Maintain Wireless Topology Tool, a Flask web app for topology simulation to integrate real geographic data for wireless network research. Integrate a dynamic display feature for NS3 simulation results by transforming large JSON topology data`,
     technologies: ["Flask", "MySQL", "JavaScript", "Python"],
-  },
-  {
-    year: "Jan 2020 - Jun 2022",
-    role: "Founder & Instructor",
-    company: "Brown Women for STEM",
-    description: `Provided 30 underprivileged students with one-on-one lessons in Computer Science and Mathematics once a week. Connected 7 women with full-ride college scholarships by mentoring students through
-application processes`,
-    technologies: ["Javascript", "Python"],
   }
 ];
 
 export const PROJECTS = [
+   {
+    title: "EAS&E - Best AI/ML Hack @ UB Hacking 2025",
+    image: ease,
+    description:
+      "Built a platform for AI-assisted wrist and posture exercises to alleviate arthritis pain. Implemented a RAG-based voice agent to guide you through the website and exercises. The wrist and posture exercises, consisted of real-time tracing for pre-computed movements, and a feature that lets you build your own custom traces as well",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "Eleven Labs",
+      "MediaPipe",
+      "Gemini"
+    ],
+  },
   {
     title: "BenefitForAll - J.P. Morgan Code for Good 2024",
     image: project7,
