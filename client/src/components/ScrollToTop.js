@@ -41,7 +41,7 @@ export const ScrollToTop = () => {
         onClick={scrollToTop}
         className={classNames(
           isVisible ? "opacity-100" : "opacity-0",
-          "bg-neutral-700 hover:bg-neutral-900 inline-flex items-center rounded-full p-3 text-white shadow-sm transition-opacity focus:outline-none"
+          "bg-brown-800 hover:bg-brown-700 inline-flex items-center rounded-full p-3 text-brown-cream shadow-sm transition-opacity focus:outline-none"
         )}
       >
         Scroll To Top

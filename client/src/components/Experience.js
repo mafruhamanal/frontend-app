@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 const Experiences = () => {
   return (
-    <div className="border-b border-neutral-900 pb-12 pt-16">
+    <div className="border-b border-brown-800 pb-12 pt-16">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1 }}
-        className="my-12 py-12 text-center text-4xl text-purple-300 font-medium"
+        className="my-12 py-12 text-center text-4xl text-brown-accent font-medium font-cormorant"
       >
         {" "}
         My Experiences
@@ -23,7 +23,7 @@ const Experiences = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <p className="mb-2  text-neutral-400">{experience.year}</p>
+              <p className="mb-2  text-brown-muted">{experience.year}</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -31,17 +31,17 @@ const Experiences = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4 flex flex-wrap"
             >
-              <h6 className="mb-2 font-semibold text-neutral-700 text-lg">
+              <h6 className="mb-2 font-semibold text-brown-cream text-lg">
                 {experience.role} - {""}
-                <span className=" text-lg text-purple-300">
+                <span className=" text-lg text-brown-accent">
                   {experience.company}
                 </span>{" "}
               </h6>
-              <p className="mb-4 text-neutral-400">{experience.description}</p>
+              <p className="mb-4 text-brown-muted">{experience.description}</p>
               {experience.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className=" mr-2 mt-4 rounded bg-neutral-700 px-2 py-1 text-sm font-medium text-purple-200"
+                  className=" mr-2 mt-4 rounded bg-brown-800 px-2 py-1 text-sm font-medium text-brown-accent"
                 >
                   {tech}
                 </span>

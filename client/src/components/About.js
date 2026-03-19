@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className=" border-b border-neutral-900 pb-24 pt-16">
+    <div className=" border-b border-brown-800 pb-24 pt-16">
       <h1 className="py-6 text-center text-4xl font-medium">
         <motion.span
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 1.5 }}
-          className="text-purple-300"
+          className="text-brown-accent font-cormorant"
         >
           About Me
         </motion.span>
@@ -35,7 +35,7 @@ const About = () => {
           className="w-full lg:w-1/2 mt-24 py-2 mx-auto"
         >
           <div className="flex justify-center">
-            <div className="max-w-xl text-neutral-700 text-center">
+            <div className="max-w-xl text-brown-muted text-center">
               {ABOUT_TEXT}
               <p className="max-w-xl py-6"></p>
             </div>

@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-900 pb-12 pt-16">
+    <div className="border-b border-brown-800 pb-12 pt-16">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1 }}
-        className="my-12 py-12 text-center text-4xl text-pink-300 font-medium"
+        className="my-12 py-12 text-center text-4xl text-brown-accent font-medium font-cormorant"
       >
         Projects
       </motion.h2>
@@ -35,15 +35,15 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4 px-4"
             >
-              <h6 className="mb-2 text-lg text-neutral-700 font-semibold">
+              <h6 className="mb-2 text-lg text-brown-cream font-semibold">
                 {project.title}
               </h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              <p className="mb-4 text-brown-muted">{project.description}</p>
               <div className="flex flex-wrap">
                 {project.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="inline-flex mr-2 mt-4 rounded bg-neutral-700 px-2 py-1 text-sm font-medium text-pink-300"
+                    className="inline-flex mr-2 mt-4 rounded bg-brown-800 px-2 py-1 text-sm font-medium text-brown-accent"
                   >
                     {tech}
                   </span>
