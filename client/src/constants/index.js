@@ -6,7 +6,7 @@ import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 import ease from "../assets/projects/ease.jpg";
 
-export const HERO_CONTENT = `I'm Mafruha Manal, currently a junior in Computer Science at UB. I like to dabble in a whole lot of Full-stack web development 👩🏽‍💻 Always cooking up a storm and looking for new things to build
+export const HERO_CONTENT = `I'm Mafruha Manal, currently a senior in Computer Science at UB. I like to dabble in a whole lot of Full-stack web development 👩🏽‍💻 Always cooking up a storm and looking for new things to build
 
 `;
 
@@ -16,13 +16,13 @@ export const ABOUT_TEXT = `I'm currently located in Buffalo, NY, studying as an 
 export const EXPERIENCES = [
   {
     year: "May 2026 - Aug 2026",
-    role: "Incoming Software Engineer Intern",
+    role: "Software Engineer Intern",
     company: "Netflix",
-    description: "",
-    technologies: []
+    description: "Built a real-time TV Player trace logging pipeline in TypeScript that cut production debugging time by 85%. Engineered a buffering system to handle 100k console trace logs per ms with 0% data loss, re-designing the event buffer and flush mechanism to keep pace with high throughput playback sessions.",
+    technologies: ["TypeScript"]
   },
   {
-    year: "Apr 2025 - Present",
+    year: "Apr 2025 - Aug 2025",
     role: "Software Engineer Fellow",
     company: "Formation",
     description:
@@ -30,7 +30,7 @@ export const EXPERIENCES = [
     technologies: ["Java", "System Design", "DBMS"],
   },
   {
-    year: "Dec 2024 - Present",
+    year: "Dec 2024 - Aug 2025",
     role: "Software Engineer Fellow",
     company: "Uber",
     description:
@@ -46,14 +46,14 @@ export const EXPERIENCES = [
     technologies: ["Java", "JUnit", "Object-oriented Programming"],
   },
   {
-    year: "June 2024 - Present",
+    year: "June 2024 - May 2025",
     role: "Software Developer Intern",
     company: "X Lab",
-    description: `Develop a cross-platform mobile app in React Native to monitor indoor farms at the lab with Augmented Reality. Implement backend logic in C# for touch detection, rotation and pinch-to-scale interactions with 3D models. Build a coordinate-specific metric display for 3D plant models to monitor plant health and identify signs of diseases/deficiencies.`,
+    description: `Developed a cross-platform mobile app in React Native to monitor indoor farms at the lab with Augmented Reality. Implement backend logic in C# for touch detection, rotation and pinch-to-scale interactions with 3D models. Built a coordinate-specific metric display for 3D plant models to monitor plant health and identify signs of diseases/deficiencies.`,
     technologies: ["React_Native", "Firebase", "Unity", "C#", "Javascript"],
   },
   {
-    year: "July 2024 - Present",
+    year: "July 2024 - September 2024",
     role: "Undergraduate Research Aide",
     company: "University at Buffalo",
     description: `Maintain Wireless Topology Tool, a Flask web app for topology simulation to integrate real geographic data for wireless network research. Integrate a dynamic display feature for NS3 simulation results by transforming large JSON topology data`,
